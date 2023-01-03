@@ -1,0 +1,20 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+
+  input,
+  button {
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    margin: 0.2rem;
+    border: 1.5px solid rgb(10, 69, 159);
+  }
+  button {
+    background-color: rgb(10, 69, 159);
+    color: aliceblue;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+}
